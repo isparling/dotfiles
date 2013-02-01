@@ -28,4 +28,5 @@ precmd () {
 }
  
 setopt prompt_subst
-PROMPT='%F{blue}%c${vcs_info_msg_0_}%F{blue}%(?/%F{blue}/%F{red})⇒ %{$reset_color%}'
+#PROMPT='%F{blue}%c${vcs_info_msg_0_}%F{blue}%(?/%F{blue}/%F{red})⇒ %{$reset_color%}'
+PROMPT='%F{blue}%c${vcs_info_msg_0_}%F{blue}%F{blue}⇒ %{$reset_color%}'
